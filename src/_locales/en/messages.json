@@ -1,180 +1,176 @@
 {
-  "extensionName": { "message": "FoxyProxy Standard" },
-  "extensionDescription": { "message": "Easy to use advanced Proxy Management tool for everyone" },
+  "extensionName": { "message": "FoxyProxy 标准版" },
+  "extensionDescription": { "message": "易于使用的高级代理管理工具，适合所有人" },
 
-  "extensionNameBasic": { "message": "FoxyProxy Basic" },
-
-
-  "error": { "message": "Error" },
-  "erroNoSettings": { "message": "No settings could be found. Please re-install FoxyProxy." },
-
-  "deleteAll": { "message": "Delete All" },
-  "export": { "message": "Export Settings" },
-  "import": { "message": "Import Settings" },
-  "importProxyList": { "message": "Import Proxy List" },
-  "log": { "message": "Log" },
-  "myIP": { "message": "What's My IP?" },
-  "deleteAllmessage": { "message": "All data deleted" },
-
-  "authError": { "message": "$1 is refusing connections\nCheck proxy username/password" },
+  "extensionNameBasic": { "message": "FoxyProxy 基础版" },
 
 
-  "delete": { "message": "Delete" },
-  "deleteNot": { "message": "Do Not Delete" },
-  "deleteBrowserData": { "message": "Delete Browser Data" },
-  "deleteBrowserDataDescription": { "message": "Cache, cookies, indexedDB storage, DOM local storage, plugin data, service worker data." },
-  "deleteBrowserDataNotDescription": { "message": "Stored passwords, browsing and form history, download history, webSQL, and server-bound certificates." },
-  "done": { "message": "Done!" },
+  "error": { "message": "错误" },
+  "erroNoSettings": { "message": "未找到设置，请重新安装 FoxyProxy。" },
 
-  "about": { "message": "About" },
-  "syncSettings": { "message": "Synchronize Settings" },
-  "syncSettingsHelp": { "message": "Turn on to use Firefox Sync (settings are synchronized across all your Firefox browsers). Turn off to store settings locally. Notice you can have two different instances of settings, one sync and one local." },
+  "deleteAll": { "message": "全部删除" },
+  "export": { "message": "导出设置" },
+  "import": { "message": "导入设置" },
+  "importProxyList": { "message": "导入代理列表" },
+  "log": { "message": "日志" },
+  "myIP": { "message": "我的 IP 是什么？" },
+  "deleteAllmessage": { "message": "所有数据已删除" },
+
+  "authError": { "message": "$1 拒绝连接\n请检查代理的用户名/密码" },
+
+
+  "delete": { "message": "删除" },
+  "deleteNot": { "message": "不删除" },
+  "deleteBrowserData": { "message": "删除浏览器数据" },
+  "deleteBrowserDataDescription": { "message": "缓存、Cookies、IndexedDB 存储、DOM 本地存储、插件数据、Service Worker 数据。" },
+  "deleteBrowserDataNotDescription": { "message": "已保存的密码、浏览和表单历史、下载历史、WebSQL 以及服务器绑定证书。" },
+  "done": { "message": "完成！" },
+
+  "about": { "message": "关于" },
+  "syncSettings": { "message": "同步设置" },
+  "syncSettingsHelp": { "message": "开启以使用 Firefox 同步（设置将在您的所有 Firefox 浏览器中同步）。关闭以将设置存储在本地。请注意，您可以拥有两个不同的设置实例，一个同步，一个本地。" },
 //  "onOff": { "message": "On/Off" },
-  "on": { "message": "On" },
-  "off": { "message": "Off" },
-  "confirmTransferToLocal": { "message": "Would you like to transfer the synced settings to your local profile?\nExisting Data will be merged." },
-  "confirmTransferToSync": { "message": "Would you like to transfer the local settings to your synced profile?\nExisting Data will be merged." },
+  "on": { "message": "开" },
+  "off": { "message": "关" },
+  "confirmTransferToLocal": { "message": "您是否要将同步的设置传输到本地配置？\n现有数据将被合并。" },
+  "confirmTransferToSync": { "message": "您是否要将本地的设置传输到同步配置？\n现有数据将被合并。" },
 
-  "modePatterns": { "message": "Use Enabled Proxies By Patterns and Order" },
-  "modeDisabled": { "message": "Turn Off (Use Firefox Settings)" },
-  "forAll": { "message": "for all URLs" },
-  "noProxies": { "message": "You do not have any proxy settings."},
-
-
-
-  "edit": { "message": "Edit" },
-  "patterns": { "message": "Patterns" },
-  "confirmDelete": { "message": "Are you sure you want to delete?" },
-
-  "addProxy": { "message": "Add Proxy" },
-  "editProxy": { "message": "Edit Proxy $1" },
-
-
-  "editPatterns": { "message": "Edit Patterns" },
-  "editPatternsFor": { "message": "Edit Patterns of $1" },
-
-
-  "errorWas": { "message": "There was an error. Please try again." },
-  "errorSlash": { "message": "No slash in wildcard patterns. You cannot match URL paths because of Firefox restrictions." },
-  "errorEmpty": { "message": "Field can not be empty." },
-
-
-  "importEnd": { "message": "Settings were successfully imported" },
-  "patternsChanged": { "message": "Some patterns were changed because they contained slashes. Slashes in patterns are not supported anymore." },
-  "importEndSlash": { "message": "Import finished. Slashes in patterns are not supported because of a Firefox bug. Please review your patterns and remove slashes, if any." },
-  "errorUserPass": { "message": "Please enter both Username & Password." },
-  "errorFetch": { "message": "There was an error with the operation" },
-
-
-  "errorPattern": { "message": "Please enter a pattern" },
-  "importBW": { "message": "Imported $1 white and $2 black patterns." },
-
-  "up": { "message": "move up" },
-  "down": { "message": "move down" },
-
-  "disabled": { "message": "Disabled" },
-  "active": { "message": "Enabled" },
-	"activeNote": { "message": "FoxyProxy ignores everything on this page unless set to" },
-  "noMatch": { "message": "No Match" },
-  "none": { "message": "None" },
-
-  "name": { "message": "Name" },
-  "pattern": { "message": "Pattern" },
-  "type": { "message": "Type" },
-  "protocol": { "message": "Protocol" },
-  "whitePatterns": { "message": "White Patterns" },
-  "blackPatterns": { "message": "Black Patterns" },
-  "importedPattern": { "message": "This pattern was imported from an older version of FoxyProxy and changed during import. Here is the original, unchanged pattern:" },
-
-
-  "patternMatch": { "message": "Pattern matches URL!" },
-  "patternNotMatch": { "message": "Pattern does not match URL." },
-  "errorProtocol": { "message": "Protocol does not match." },
+  "modePatterns": { "message": "按规则和顺序使用已启用的代理" },
+  "modeDisabled": { "message": "关闭（使用 Firefox 设置）" },
+  "forAll": { "message": "适用于所有 URL" },
+  "noProxies": { "message": "您没有任何代理设置。"},
 
 
 
-  "proxyType": { "message": "Proxy Type" },
-  "color": { "message": "Color" },
-  "patternShortcuts": { "message": "Pattern Shortcuts"},
-  "title": { "message": "Title or Description (optional)" },
-  "ip": { "message": "Proxy IP address or DNS name" },
-  "port": { "message": "Port" },
-  "username": { "message": "Username (optional)" },
-  "password": { "message": "Password (optional)" },
-  "togglePW": { "message": "Toggle Password" },
+  "edit": { "message": "编辑" },
+  "patterns": { "message": "规则" },
+  "confirmDelete": { "message": "您确定要删除吗？" },
 
-  "addWhitelist": { "message": "Add whitelist pattern to match all URLs" },
-  "noLocal": { "message": "Do not use for localhost and intranet/private IP addresses" },
+  "addProxy": { "message": "添加代理" },
+  "editProxy": { "message": "编辑代理 $1" },
 
 
-
-  "patternTester": { "message": "Pattern Tester" },
-  "patternHelp": { "message": "Pattern Help" },
-  "welcome": { "message": "Welcome" },
-  "options": { "message": "Options" },
-  "optionsPage": { "message": "FoxyProxy Options" },
-  "enterUrl": { "message": "Enter URL to test" },
-  "enterUrlNote": { "message": "(paths and query parameters are ignored)" },
-  "patternDetail": { "message": "Enter pattern details." },
-  "patternNote": { "message": "(no paths, no query parameters)" },
-  "clickTest": { "message": "Click 'Test' when ready" },
+  "editPatterns": { "message": "编辑规则" },
+  "editPatternsFor": { "message": "编辑 $1 的规则" },
 
 
+  "errorWas": { "message": "发生错误，请重试。" },
+  "errorSlash": { "message": "通配符规则中不能包含斜杠。由于 Firefox 的限制，您无法匹配 URL 路径。" },
+  "errorEmpty": { "message": "字段不能为空。" },
+
+
+  "importEnd": { "message": "设置已成功导入" },
+  "patternsChanged": { "message": "部分规则因包含斜杠而被修改。规则中不再支持斜杠。" },
+  "importEndSlash": { "message": "导入完成。由于 Firefox 的 bug，规则中不支持斜杠，请检查您的规则并移除斜杠。" },
+  "errorUserPass": { "message": "请同时输入用户名和密码。" },
+  "errorFetch": { "message": "操作出错" },
+
+
+  "errorPattern": { "message": "请输入规则" },
+  "importBW": { "message": "已导入 $1 条白名单规则和 $2 条黑名单规则。" },
+
+  "up": { "message": "上移" },
+  "down": { "message": "下移" },
+
+  "disabled": { "message": "已禁用" },
+  "active": { "message": "已启用" },
+	"activeNote": { "message": "除非设置为" },
+  "noMatch": { "message": "无匹配" },
+  "none": { "message": "无" },
+
+  "name": { "message": "名称" },
+  "pattern": { "message": "规则" },
+  "type": { "message": "类型" },
+  "protocol": { "message": "协议" },
+  "whitePatterns": { "message": "白名单规则" },
+  "blackPatterns": { "message": "黑名单规则" },
+  "importedPattern": { "message": "此规则是从旧版 FoxyProxy 导入并在导入过程中被修改的。以下是原始的未修改规则：" },
+
+
+  "patternMatch": { "message": "规则匹配 URL！" },
+  "patternNotMatch": { "message": "规则不匹配 URL。" },
+  "errorProtocol": { "message": "协议不匹配。" },
 
 
 
+  "proxyType": { "message": "代理类型" },
+  "color": { "message": "颜色" },
+  "patternShortcuts": { "message": "规则快捷方式"},
+  "title": { "message": "标题或描述（可选）" },
+  "ip": { "message": "代理 IP 地址或 DNS 名称" },
+  "port": { "message": "端口" },
+  "username": { "message": "用户名（可选）" },
+  "password": { "message": "密码（可选）" },
+  "togglePW": { "message": "显示/隐藏密码" },
+
+  "addWhitelist": { "message": "添加匹配所有 URL 的白名单规则" },
+  "noLocal": { "message": "不对 localhost、内网/私有 IP 地址使用" },
 
 
-  "ok": { "message": "OK" },
-  "clear": { "message": "Clear" },
-  "refresh": { "message": "Refresh" },
-  "cancel": { "message": "Cancel" },
-  "back": { "message": "Back" },
-  "test": { "message": "Test" },
-  "help": { "message": "Help" },
-  "importPatterns": { "message": "Import Patterns" },
-  "exportPatterns": { "message": "Export Patterns" },
-  "newWhite": { "message": "New White" },
-  "newBlack": { "message": "New Black" },
-  "save": { "message": "Save" },
-  "add": { "message": "Add" },
-  "saveAdd": { "message": "Save & Add Another" },
-  "saveEditPattern": { "message": "Save & Edit Patterns" },
-  "imported": { "message": "Imported" },
-  "addBlacklistTip": { "message": "Add blacklist patterns for localhost, 127.0.0.1, 192.168.*.*, 172.16.*.*, & 10.*.*.*" },
-  "addBlacklist": { "message": "Add black patterns to prevent this proxy being used for localhost & intranet/private IP addresses" },
-  "addWhitelistTip": { "message": "Add whitelist pattern *" },
-  "patternCheatSheet":  { "message": "Pattern Cheat Sheet" },
 
-  "logSize": { "message": "Log Size" },
+  "patternTester": { "message": "规则测试器" },
+  "patternHelp": { "message": "规则帮助" },
+  "welcome": { "message": "欢迎" },
+  "options": { "message": "选项" },
+  "optionsPage": { "message": "FoxyProxy 选项" },
+  "enterUrl": { "message": "输入要测试的 URL" },
+  "enterUrlNote": { "message": "（路径和查询参数将被忽略）" },
+  "patternDetail": { "message": "输入规则详情。" },
+  "patternNote": { "message": "（不含路径和查询参数）" },
+  "clickTest": { "message": "准备好后点击“测试”" },
+
+
+
+  "ok": { "message": "确定" },
+  "clear": { "message": "清除" },
+  "refresh": { "message": "刷新" },
+  "cancel": { "message": "取消" },
+  "back": { "message": "返回" },
+  "test": { "message": "测试" },
+  "help": { "message": "帮助" },
+  "importPatterns": { "message": "导入规则" },
+  "exportPatterns": { "message": "导出规则" },
+  "newWhite": { "message": "新建白名单" },
+  "newBlack": { "message": "新建黑名单" },
+  "save": { "message": "保存" },
+  "add": { "message": "添加" },
+  "saveAdd": { "message": "保存并继续添加" },
+  "saveEditPattern": { "message": "保存并编辑规则" },
+  "imported": { "message": "已导入" },
+  "addBlacklistTip": { "message": "添加针对 localhost、127.0.0.1、192.168.*.*、172.16.*.* 和 10.*.*.* 的黑名单规则" },
+  "addBlacklist": { "message": "添加黑名单规则，防止此代理用于 localhost 和内网/私有 IP 地址" },
+  "addWhitelistTip": { "message": "添加白名单规则 *" },
+  "patternCheatSheet":  { "message": "规则速查表" },
+
+  "logSize": { "message": "日志大小" },
   "url": { "message": "URL" },
-  "proxyTitle": { "message": "Proxy Title" },
-  "proxyAddress": { "message": "Proxy Address" },
-  "matchPattern": { "message": "Match Pattern" },
-  "whiteBlack": { "message": "White/Black" },
-  "white": { "message": "White" },
-  "black": { "message": "Black" },
-  "timestamp": { "message": "Timestamp" },
-  "notApplicable": {"message": "n/a"},
-  "matchedURLs": {"message": "URLs That Matched Patterns"},
-  "unmatchedURLs": {"message": "URLs That Did Not Match Patterns"},
+  "proxyTitle": { "message": "代理标题" },
+  "proxyAddress": { "message": "代理地址" },
+  "matchPattern": { "message": "匹配规则" },
+  "whiteBlack": { "message": "白/黑名单" },
+  "white": { "message": "白名单" },
+  "black": { "message": "黑名单" },
+  "timestamp": { "message": "时间戳" },
+  "notApplicable": {"message": "不适用"},
+  "matchedURLs": {"message": "匹配规则的 URL"},
+  "unmatchedURLs": {"message": "未匹配规则的 URL"},
 
 
-  "pasteList": { "message": "Paste a proxy list below."},
-  "formats": {"message": "Formats"},
-  "simple": { "message": "simple" },
-  "complete": { "message": "complete" },
-  "simpleFormat": { "message": "ip address/server and port are required. username:password are optional."},
-  "ipPort": {"message": "ip:port"},
-  "ipPortUsernamePassword": {"message": "ip:port:username:password"},
-  "examples": {"message": "Examples"},
-  "completeFormat": { "message": "With this format, you can specify all proxy settings. But only protocol and server are required."},
-  "overwriteProxies": { "message": "Overwrite existing proxies" },
-  "overwritProxiesHelp1": { "message": "Check to delete all existing proxies and replace them with proxies from this list." },
-  "overwritProxiesHelp2": { "message": "Uncheck to append proxies in this list to existing proxies." },
-  "confirmOverwrite": { "message": "Are you sure you want to overwrite existing proxies?" },
-  "importsSkipped": { "message": "Skipped $1 lines because they could not be parsed:\n\n$2" },
+  "pasteList": { "message": "在下方粘贴代理列表。"},
+  "formats": {"message": "格式"},
+  "simple": { "message": "简单" },
+  "complete": { "message": "完整" },
+  "simpleFormat": { "message": "IP 地址/服务器和端口为必填，用户名:密码为可选。"},
+  "ipPort": {"message": "IP:端口"},
+  "ipPortUsernamePassword": {"message": "IP:端口:用户名:密码"},
+  "examples": {"message": "示例"},
+  "completeFormat": { "message": "使用此格式，您可以指定所有代理设置，但只有协议和服务器为必填项。"},
+  "overwriteProxies": { "message": "覆盖现有代理" },
+  "overwritProxiesHelp1": { "message": "勾选后将删除所有现有代理，并用此列表中的代理替换。" },
+  "overwritProxiesHelp2": { "message": "取消勾选则将此列表中的代理追加到现有代理中。" },
+  "confirmOverwrite": { "message": "您确定要覆盖现有代理吗？" },
+  "importsSkipped": { "message": "已跳过 $1 行，因为无法解析：\n\n$2" },
   "importSucceeded": {
-    "message": "Read and stored $1 proxies."
+    "message": "已读取并存储 $1 个代理。"
   }
 }
